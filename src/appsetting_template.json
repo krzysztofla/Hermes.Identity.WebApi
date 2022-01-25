@@ -1,0 +1,31 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "initial": {
+    "name": "Hermes",
+    "seedData": true,
+    "initializer": "Cosmos"
+  },
+  "AllowedHosts": "*",
+  "jwt": {
+    "secret": ""
+  },
+  "mongo": {
+    "connectionString": "",
+    "database": ""
+  },
+  "cosmos": {
+    "connectionString": "",
+    "database": "",
+    "container": ""
+  },
+  "serviceBus": {
+    "connectionString": "",
+    "queueName": ""
+  }
+}
